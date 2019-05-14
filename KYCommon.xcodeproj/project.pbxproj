@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF3CE868A325CE7877006644 /* libPods-KYCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CAD8E9DA090C1C5AE77669 /* libPods-KYCommon.a */; };
+		EAAD384D2289724000414D2A /* UIView+KYCFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD410F322895F020003CDBC /* UIView+KYCFrame.m */; };
+		EAAD38582289732900414D2A /* NSDate+KYC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAD38502289732800414D2A /* NSDate+KYC.m */; };
+		EAAD38592289732900414D2A /* NSDictionary+KYC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAD38512289732800414D2A /* NSDictionary+KYC.m */; };
+		EAAD385A2289732900414D2A /* NSArray+KYC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAD38532289732800414D2A /* NSArray+KYC.m */; };
+		EAAD385B2289732900414D2A /* NSData+KYC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAD38542289732800414D2A /* NSData+KYC.m */; };
+		EAAD385C2289732900414D2A /* NSString+KYC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAD38572289732900414D2A /* NSString+KYC.m */; };
+		EAD410B922893B430003CDBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD410B822893B430003CDBC /* AppDelegate.m */; };
+		EAD410BC22893B430003CDBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD410BB22893B430003CDBC /* ViewController.m */; };
+		EAD410BF22893B430003CDBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD410BD22893B430003CDBC /* Main.storyboard */; };
+		EAD410C122893B450003CDBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD410C022893B450003CDBC /* Assets.xcassets */; };
+		EAD410C422893B450003CDBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD410C222893B450003CDBC /* LaunchScreen.storyboard */; };
+		EAD410C722893B450003CDBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD410C622893B450003CDBC /* main.m */; };
+		EAD410D422893C340003CDBC /* UIApplication+KYC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD410D322893C340003CDBC /* UIApplication+KYC.m */; };
+		EAD410D722893CE50003CDBC /* UIDevice+KYC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD410D622893CE50003CDBC /* UIDevice+KYC.m */; };
+		EAD410F722895F0F0003CDBC /* UIImage+KYC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD410F522895F0E0003CDBC /* UIImage+KYC.m */; };
+		EAD410FA228963730003CDBC /* KYCUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD410F9228963730003CDBC /* KYCUtility.m */; };
+		EAED6389228A52DB000D5F01 /* UIColor+KYC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD410EE22895F010003CDBC /* UIColor+KYC.m */; };
+		EAED638C228A6A38000D5F01 /* UILabel+KYC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAED638B228A6A38000D5F01 /* UILabel+KYC.m */; };
+		EAED638F228A6BAC000D5F01 /* UINavigationController+KYC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAED638E228A6BAC000D5F01 /* UINavigationController+KYC.m */; };
+		EAED6392228A6C33000D5F01 /* UITextField+KYC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAED6391228A6C33000D5F01 /* UITextField+KYC.m */; };
+		EAED6395228A87F5000D5F01 /* NSDateFormatter+KYC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAED6394228A87F5000D5F01 /* NSDateFormatter+KYC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16DF82ACDC13035B59EA72D8 /* Pods-KYCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYCommon.release.xcconfig"; path = "Target Support Files/Pods-KYCommon/Pods-KYCommon.release.xcconfig"; sourceTree = "<group>"; };
+		5038C391E8E18A68D3BED4BE /* Pods-KYCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYCommon.debug.xcconfig"; path = "Target Support Files/Pods-KYCommon/Pods-KYCommon.debug.xcconfig"; sourceTree = "<group>"; };
+		55CAD8E9DA090C1C5AE77669 /* libPods-KYCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KYCommon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAD384E2289732800414D2A /* NSData+KYC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+KYC.h"; sourceTree = "<group>"; };
+		EAAD384F2289732800414D2A /* NSDate+KYC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+KYC.h"; sourceTree = "<group>"; };
+		EAAD38502289732800414D2A /* NSDate+KYC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+KYC.m"; sourceTree = "<group>"; };
+		EAAD38512289732800414D2A /* NSDictionary+KYC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+KYC.m"; sourceTree = "<group>"; };
+		EAAD38522289732800414D2A /* NSArray+KYC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+KYC.h"; sourceTree = "<group>"; };
+		EAAD38532289732800414D2A /* NSArray+KYC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+KYC.m"; sourceTree = "<group>"; };
+		EAAD38542289732800414D2A /* NSData+KYC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+KYC.m"; sourceTree = "<group>"; };
+		EAAD38552289732800414D2A /* NSDictionary+KYC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+KYC.h"; sourceTree = "<group>"; };
+		EAAD38562289732900414D2A /* NSString+KYC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KYC.h"; sourceTree = "<group>"; };
+		EAAD38572289732900414D2A /* NSString+KYC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KYC.m"; sourceTree = "<group>"; };
+		EAD410B422893B430003CDBC /* KYCommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYCommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD410B722893B430003CDBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAD410B822893B430003CDBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAD410BA22893B430003CDBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAD410BB22893B430003CDBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAD410BE22893B430003CDBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAD410C022893B450003CDBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAD410C322893B450003CDBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAD410C522893B450003CDBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD410C622893B450003CDBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAD410D222893C340003CDBC /* UIApplication+KYC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+KYC.h"; sourceTree = "<group>"; };
+		EAD410D322893C340003CDBC /* UIApplication+KYC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+KYC.m"; sourceTree = "<group>"; };
+		EAD410D522893CE50003CDBC /* UIDevice+KYC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+KYC.h"; sourceTree = "<group>"; };
+		EAD410D622893CE50003CDBC /* UIDevice+KYC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+KYC.m"; sourceTree = "<group>"; };
+		EAD410ED22895F010003CDBC /* UIView+KYCFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+KYCFrame.h"; sourceTree = "<group>"; };
+		EAD410EE22895F010003CDBC /* UIColor+KYC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KYC.m"; sourceTree = "<group>"; };
+		EAD410EF22895F010003CDBC /* UIColor+KYC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+KYC.h"; sourceTree = "<group>"; };
+		EAD410F322895F020003CDBC /* UIView+KYCFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+KYCFrame.m"; sourceTree = "<group>"; };
+		EAD410F522895F0E0003CDBC /* UIImage+KYC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KYC.m"; sourceTree = "<group>"; };
+		EAD410F622895F0E0003CDBC /* UIImage+KYC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+KYC.h"; sourceTree = "<group>"; };
+		EAD410F8228963720003CDBC /* KYCUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KYCUtility.h; sourceTree = "<group>"; };
+		EAD410F9228963730003CDBC /* KYCUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYCUtility.m; sourceTree = "<group>"; };
+		EAED638A228A6A38000D5F01 /* UILabel+KYC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+KYC.h"; sourceTree = "<group>"; };
+		EAED638B228A6A38000D5F01 /* UILabel+KYC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+KYC.m"; sourceTree = "<group>"; };
+		EAED638D228A6BAC000D5F01 /* UINavigationController+KYC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+KYC.h"; sourceTree = "<group>"; };
+		EAED638E228A6BAC000D5F01 /* UINavigationController+KYC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+KYC.m"; sourceTree = "<group>"; };
+		EAED6390228A6C33000D5F01 /* UITextField+KYC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+KYC.h"; sourceTree = "<group>"; };
+		EAED6391228A6C33000D5F01 /* UITextField+KYC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+KYC.m"; sourceTree = "<group>"; };
+		EAED6393228A87F5000D5F01 /* NSDateFormatter+KYC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+KYC.h"; sourceTree = "<group>"; };
+		EAED6394228A87F5000D5F01 /* NSDateFormatter+KYC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+KYC.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAD410B122893B430003CDBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3CE868A325CE7877006644 /* libPods-KYCommon.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FF54B6DC5E1438EAEE202E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55CAD8E9DA090C1C5AE77669 /* libPods-KYCommon.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A76C7CBFAF82AEA63FDA4C99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5038C391E8E18A68D3BED4BE /* Pods-KYCommon.debug.xcconfig */,
+				16DF82ACDC13035B59EA72D8 /* Pods-KYCommon.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EAAD384C2289722C00414D2A /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				EAD410ED22895F010003CDBC /* UIView+KYCFrame.h */,
+				EAD410F322895F020003CDBC /* UIView+KYCFrame.m */,
+				EAD410F622895F0E0003CDBC /* UIImage+KYC.h */,
+				EAD410F522895F0E0003CDBC /* UIImage+KYC.m */,
+				EAD410D222893C340003CDBC /* UIApplication+KYC.h */,
+				EAD410D322893C340003CDBC /* UIApplication+KYC.m */,
+				EAD410D522893CE50003CDBC /* UIDevice+KYC.h */,
+				EAD410D622893CE50003CDBC /* UIDevice+KYC.m */,
+				EAD410EF22895F010003CDBC /* UIColor+KYC.h */,
+				EAD410EE22895F010003CDBC /* UIColor+KYC.m */,
+				EAED638A228A6A38000D5F01 /* UILabel+KYC.h */,
+				EAED638B228A6A38000D5F01 /* UILabel+KYC.m */,
+				EAED638D228A6BAC000D5F01 /* UINavigationController+KYC.h */,
+				EAED638E228A6BAC000D5F01 /* UINavigationController+KYC.m */,
+				EAED6390228A6C33000D5F01 /* UITextField+KYC.h */,
+				EAED6391228A6C33000D5F01 /* UITextField+KYC.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		EAAD385D2289766500414D2A /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				EAAD38522289732800414D2A /* NSArray+KYC.h */,
+				EAAD38532289732800414D2A /* NSArray+KYC.m */,
+				EAAD384E2289732800414D2A /* NSData+KYC.h */,
+				EAAD38542289732800414D2A /* NSData+KYC.m */,
+				EAED6393228A87F5000D5F01 /* NSDateFormatter+KYC.h */,
+				EAED6394228A87F5000D5F01 /* NSDateFormatter+KYC.m */,
+				EAAD384F2289732800414D2A /* NSDate+KYC.h */,
+				EAAD38502289732800414D2A /* NSDate+KYC.m */,
+				EAAD38552289732800414D2A /* NSDictionary+KYC.h */,
+				EAAD38512289732800414D2A /* NSDictionary+KYC.m */,
+				EAAD38562289732900414D2A /* NSString+KYC.h */,
+				EAAD38572289732900414D2A /* NSString+KYC.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		EAD410AB22893B430003CDBC = {
+			isa = PBXGroup;
+			children = (
+				EAD410B622893B430003CDBC /* KYCommon */,
+				EAD410B522893B430003CDBC /* Products */,
+				A76C7CBFAF82AEA63FDA4C99 /* Pods */,
+				3FF54B6DC5E1438EAEE202E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EAD410B522893B430003CDBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAD410B422893B430003CDBC /* KYCommon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAD410B622893B430003CDBC /* KYCommon */ = {
+			isa = PBXGroup;
+			children = (
+				EAD410CD22893B4B0003CDBC /* Classes */,
+				EAD410B722893B430003CDBC /* AppDelegate.h */,
+				EAD410B822893B430003CDBC /* AppDelegate.m */,
+				EAD410BA22893B430003CDBC /* ViewController.h */,
+				EAD410BB22893B430003CDBC /* ViewController.m */,
+				EAD410BD22893B430003CDBC /* Main.storyboard */,
+				EAD410C022893B450003CDBC /* Assets.xcassets */,
+				EAD410C222893B450003CDBC /* LaunchScreen.storyboard */,
+				EAD410C522893B450003CDBC /* Info.plist */,
+				EAD410C622893B450003CDBC /* main.m */,
+			);
+			path = KYCommon;
+			sourceTree = "<group>";
+		};
+		EAD410CD22893B4B0003CDBC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EAD410F8228963720003CDBC /* KYCUtility.h */,
+				EAD410F9228963730003CDBC /* KYCUtility.m */,
+				EAD410EC22895EE30003CDBC /* Category */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EAD410EC22895EE30003CDBC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EAAD385D2289766500414D2A /* NSObject */,
+				EAAD384C2289722C00414D2A /* UIKit */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAD410B322893B430003CDBC /* KYCommon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD410CA22893B450003CDBC /* Build configuration list for PBXNativeTarget "KYCommon" */;
+			buildPhases = (
+				FEBA7C164C1BED62628CC078 /* [CP] Check Pods Manifest.lock */,
+				EAD410B022893B430003CDBC /* Sources */,
+				EAD410B122893B430003CDBC /* Frameworks */,
+				EAD410B222893B430003CDBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYCommon;
+			productName = KYCommon;
+			productReference = EAD410B422893B430003CDBC /* KYCommon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAD410AC22893B430003CDBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Key;
+				TargetAttributes = {
+					EAD410B322893B430003CDBC = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EAD410AF22893B430003CDBC /* Build configuration list for PBXProject "KYCommon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAD410AB22893B430003CDBC;
+			productRefGroup = EAD410B522893B430003CDBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAD410B322893B430003CDBC /* KYCommon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAD410B222893B430003CDBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD410C422893B450003CDBC /* LaunchScreen.storyboard in Resources */,
+				EAD410C122893B450003CDBC /* Assets.xcassets in Resources */,
+				EAD410BF22893B430003CDBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FEBA7C164C1BED62628CC078 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KYCommon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAD410B022893B430003CDBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAED6389228A52DB000D5F01 /* UIColor+KYC.m in Sources */,
+				EAD410D422893C340003CDBC /* UIApplication+KYC.m in Sources */,
+				EAD410BC22893B430003CDBC /* ViewController.m in Sources */,
+				EAAD38582289732900414D2A /* NSDate+KYC.m in Sources */,
+				EAAD384D2289724000414D2A /* UIView+KYCFrame.m in Sources */,
+				EAED6395228A87F5000D5F01 /* NSDateFormatter+KYC.m in Sources */,
+				EAD410C722893B450003CDBC /* main.m in Sources */,
+				EAD410D722893CE50003CDBC /* UIDevice+KYC.m in Sources */,
+				EAED638C228A6A38000D5F01 /* UILabel+KYC.m in Sources */,
+				EAD410B922893B430003CDBC /* AppDelegate.m in Sources */,
+				EAD410FA228963730003CDBC /* KYCUtility.m in Sources */,
+				EAAD385C2289732900414D2A /* NSString+KYC.m in Sources */,
+				EAED638F228A6BAC000D5F01 /* UINavigationController+KYC.m in Sources */,
+				EAAD385B2289732900414D2A /* NSData+KYC.m in Sources */,
+				EAAD38592289732900414D2A /* NSDictionary+KYC.m in Sources */,
+				EAAD385A2289732900414D2A /* NSArray+KYC.m in Sources */,
+				EAED6392228A6C33000D5F01 /* UITextField+KYC.m in Sources */,
+				EAD410F722895F0F0003CDBC /* UIImage+KYC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EAD410BD22893B430003CDBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAD410BE22893B430003CDBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAD410C222893B450003CDBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAD410C322893B450003CDBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAD410C822893B450003CDBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAD410C922893B450003CDBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAD410CB22893B450003CDBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5038C391E8E18A68D3BED4BE /* Pods-KYCommon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = FJ8N4S5A53;
+				INFOPLIST_FILE = KYCommon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iv66.test1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = commonDev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAD410CC22893B450003CDBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16DF82ACDC13035B59EA72D8 /* Pods-KYCommon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = KYCommon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iv66.test1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAD410AF22893B430003CDBC /* Build configuration list for PBXProject "KYCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD410C822893B450003CDBC /* Debug */,
+				EAD410C922893B450003CDBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAD410CA22893B450003CDBC /* Build configuration list for PBXNativeTarget "KYCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD410CB22893B450003CDBC /* Debug */,
+				EAD410CC22893B450003CDBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAD410AC22893B430003CDBC /* Project object */;
+}
