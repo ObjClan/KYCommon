@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BF3CE868A325CE7877006644 /* libPods-KYCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55CAD8E9DA090C1C5AE77669 /* libPods-KYCommon.a */; };
+		EA12C2A322C759F900FD80AF /* DeviceModelsForIOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA12C2A222C759F900FD80AF /* DeviceModelsForIOS.plist */; };
 		EAAD384D2289724000414D2A /* UIView+KYCFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD410F322895F020003CDBC /* UIView+KYCFrame.m */; };
 		EAAD38582289732900414D2A /* NSDate+KYC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAD38502289732800414D2A /* NSDate+KYC.m */; };
 		EAAD38592289732900414D2A /* NSDictionary+KYC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAD38512289732800414D2A /* NSDictionary+KYC.m */; };
@@ -35,6 +36,7 @@
 		16DF82ACDC13035B59EA72D8 /* Pods-KYCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYCommon.release.xcconfig"; path = "Target Support Files/Pods-KYCommon/Pods-KYCommon.release.xcconfig"; sourceTree = "<group>"; };
 		5038C391E8E18A68D3BED4BE /* Pods-KYCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYCommon.debug.xcconfig"; path = "Target Support Files/Pods-KYCommon/Pods-KYCommon.debug.xcconfig"; sourceTree = "<group>"; };
 		55CAD8E9DA090C1C5AE77669 /* libPods-KYCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KYCommon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA12C2A222C759F900FD80AF /* DeviceModelsForIOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DeviceModelsForIOS.plist; sourceTree = "<group>"; };
 		EAAD384E2289732800414D2A /* NSData+KYC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+KYC.h"; sourceTree = "<group>"; };
 		EAAD384F2289732800414D2A /* NSDate+KYC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+KYC.h"; sourceTree = "<group>"; };
 		EAAD38502289732800414D2A /* NSDate+KYC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+KYC.m"; sourceTree = "<group>"; };
@@ -104,6 +106,14 @@
 				16DF82ACDC13035B59EA72D8 /* Pods-KYCommon.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		EA12C2A122C759E600FD80AF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EA12C2A222C759F900FD80AF /* DeviceModelsForIOS.plist */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		EAAD384C2289722C00414D2A /* UIKit */ = {
@@ -186,6 +196,7 @@
 		EAD410CD22893B4B0003CDBC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				EA12C2A122C759E600FD80AF /* Resource */,
 				EAD410F8228963720003CDBC /* KYCUtility.h */,
 				EAD410F9228963730003CDBC /* KYCUtility.m */,
 				EAD410EC22895EE30003CDBC /* Category */,
@@ -260,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA12C2A322C759F900FD80AF /* DeviceModelsForIOS.plist in Resources */,
 				EAD410C422893B450003CDBC /* LaunchScreen.storyboard in Resources */,
 				EAD410C122893B450003CDBC /* Assets.xcassets in Resources */,
 				EAD410BF22893B430003CDBC /* Main.storyboard in Resources */,
