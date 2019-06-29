@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "KYCommon"
-  s.version      = "1.0.4"
+  s.version      = "1.0.5"
   s.summary      = "KYCommon"
   s.description  = <<-DESC
                    该库封装常用工具类
@@ -35,5 +35,5 @@ Pod::Spec.new do |s|
     end
   end
 
-  spec.resources = ["KYCommon/Classes/Resource/*.plist"]
+  s.resources = ["KYCommon/Classes/Resource/*.plist"]
 end
