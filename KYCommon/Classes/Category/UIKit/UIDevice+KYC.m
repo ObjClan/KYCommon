@@ -15,9 +15,31 @@
 #import <mach/mach.h>
 #import <ifaddrs.h>
 #import <arpa/inet.h>
+#import <sys/utsname.h>
 #import <FCUUID/FCUUID.h>
 @implementation UIDevice (KYC)
 
++ (NSString *)iPhoneName {
+    struct utsname systemInfo;
+    uname(&systemInfo);
+    NSString *platform = [NSString stringWithCString:systemInfo.machine encoding:NSUTF8StringEncoding];
+    NSDictionary * dict = [self readPrepertyListFile];
+    if (dict && [dict valueForKey:platform]) {
+        platform = [dict objectForKey:platform];
+    }
+    return platform;
+}
+
++ (NSDictionary *)readPrepertyListFile {
+    
+    NSString * path = [[NSBundle mainBundle] pathForResource:@"DeviceModelsForIOS" ofType:@"plist"];
+    if (path != nil && path.length > 0) {
+        NSDictionary * dictionary = [[NSDictionary alloc] initWithContentsOfFile:path];
+        return dictionary;
+    }else {
+        return nil;
+    }
+}
 + (NSString *)carrierName
 {
     CTTelephonyNetworkInfo *telephonyInfo = [[CTTelephonyNetworkInfo alloc] init];

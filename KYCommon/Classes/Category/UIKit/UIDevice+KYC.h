@@ -23,6 +23,11 @@ typedef NS_ENUM(NSInteger,KYCNetworkType){
 
 
 #pragma mark ----------------------网络相关-------------------------
+
+/**
+ 获取手机名
+ */
++ (NSString *)iPhoneName;
 /**
  营运商
  */
