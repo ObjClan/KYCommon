@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "KYCommon"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "KYCommon"
   s.description  = <<-DESC
                    该库封装常用工具类
@@ -34,7 +34,6 @@ Pod::Spec.new do |s|
       sss.source_files = 'KYCommon/Classes/Category/UIKit/*'
     end
   end
-  s.subspec 'Resource' do |ss| 
-    ss.source_files = 'KYCommon/Classes/Resource/*'
-  end
+
+  spec.resources = ["KYCommon/Classes/Resource/*.plist"]
 end
